@@ -94,66 +94,105 @@ interface HospitalContextType {
 
 const initialDoctors: Doctor[] = [
   {
-    id: "doc-1",
-    name: "Dr. Vijay Yadav",
-    role: "Director & Chief Pediatrician",
-    department: "Pediatrics & Neonatology",
-    qualifications: ["MBBS", "MD (Paediatrics)", "PGPN (Boston University)", "MECMS", "MIAP"],
-    experienceYears: 15,
-    image: "/images/dr-vijay-yadav.png",
-    bio: "Dr. Vijay Yadav is a highly experienced Pediatrician committed to providing world-class healthcare for newborns, infants, children, and families with compassionate treatment and advanced medical care.",
-    opdHours: "10:00 AM - 02:00 PM & 05:00 PM - 08:00 PM",
-    availableDays: "Mon - Sat",
-    isDirector: true,
+    "id": "doc-1",
+    "name": "Dr. Vijay Yadav",
+    "role": "Director & Chief Pediatrician",
+    "department": "Pediatrics & Neonatology",
+    "qualifications": [
+      "MBBS",
+      "MD (Paediatrics)",
+      "PGPN (Boston University)",
+      "MECMS",
+      "MIAP"
+    ],
+    "experienceYears": 12,
+    "image": "/images/dr-vijay-yadav.png",
+    "bio": "Dr. Vijay Yadav is a highly experienced Pediatrician committed to providing quality healthcare for newborns, infants, children, and families.",
+    "opdHours": "12:00 PM - 06:00 PM",
+    "availableDays": "Mon - Sat",
+    "isDirector": true
   },
   {
-    id: "doc-2",
-    name: "Dr. Rachna Mishra",
-    role: "Senior Consultant Gynecologist & Obstetrician",
-    department: "Obstetrics & Gynecology",
-    qualifications: ["MBBS", "MS (Obs & Gynae)", "FICOG", "FMAS"],
-    experienceYears: 12,
-    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=800&auto=format&fit=crop",
-    bio: "Specialist in high-risk pregnancies, maternal-fetal medicine, advanced laparoscopic surgeries, and comprehensive women healthcare.",
-    opdHours: "11:00 AM - 03:00 PM",
-    availableDays: "Mon - Sat",
+    "id": "doc-2",
+    "name": "Dr. Aziz Khan",
+    "role": "Senior Pediatrician",
+    "department": "Pediatrics & Neonatology",
+    "qualifications": [
+      "MBBS",
+      "DCH",
+      "DNB"
+    ],
+    "experienceYears": 10,
+    "image": "/images/dr-aziz-khan.png",
+    "bio": "Dr. Aziz Khan specializes in newborn and child healthcare, providing medical care and treatment for infants and children.",
+    "opdHours": "09:00 AM - 12:00 PM",
+    "availableDays": "Mon - Sun",
+    "isDirector": false
   },
   {
-    id: "doc-3",
-    name: "Dr. Mahipal Yadav",
-    role: "Chief Orthopedic & Trauma Surgeon",
-    department: "Orthopedics & Trauma",
-    qualifications: ["MBBS", "MS (Ortho)", "Fellowship in Joint Replacement"],
-    experienceYears: 16,
-    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=800&auto=format&fit=crop",
-    bio: "Expert in complex trauma management, pediatric orthopedics, joint reconstruction, and minimally invasive bone care.",
-    opdHours: "09:30 AM - 01:30 PM",
-    availableDays: "Mon - Sat",
+    "id": "doc-3",
+    "name": "Dr. Farhat Khan",
+    "role": "General & Laparoscopic Surgeon",
+    "department": "General Surgery",
+    "qualifications": [
+      "MBBS",
+      "MS"
+    ],
+    "experienceYears": 25,
+    "image": "/images/dr-farhat-khan.png",
+    "bio": "Dr. Farhat Khan is an experienced General and Laparoscopic Surgeon with expertise in surgical treatments and patient care.",
+    "opdHours": "11:00 AM - 04:00 PM",
+    "availableDays": "Mon - Sun",
+    "isDirector": false
   },
   {
-    id: "doc-4",
-    name: "Dr. Prashant Yadav",
-    role: "Laparoscopic & General Surgery Specialist",
-    department: "General & Laparoscopic Surgery",
-    qualifications: ["MBBS", "MS (Gen Surgery)", "FIAGES"],
-    experienceYears: 14,
-    image: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=800&auto=format&fit=crop",
-    bio: "Pioneer in keyhole surgery, pediatric surgical interventions, abdominal trauma, and emergency surgical procedures.",
-    opdHours: "12:00 PM - 04:00 PM",
-    availableDays: "Mon - Sat",
+    "id": "doc-4",
+    "name": "Dr. Suhbi Khan",
+    "role": "Gynecologist & Obstetrician",
+    "department": "Obstetrics & Gynecology",
+    "qualifications": [
+      "MBBS",
+      "Diploma in G.O."
+    ],
+    "experienceYears": 20,
+    "image": "/images/dr-suhbi-khan.png",
+    "bio": "Dr. Suhbi Khan specializes in women's healthcare, pregnancy care, and obstetrics and gynecology services.",
+    "opdHours": "02:00 PM - 06:00 PM",
+    "availableDays": "Mon - Sun",
+    "isDirector": false
   },
   {
-    id: "doc-5",
-    name: "Dr. Shubham Yadav",
-    role: "Critical Care Specialist & Intensivist",
-    department: "ICU & Critical Care",
-    qualifications: ["BAMS", "MD (General Physican)", "EDIC"],
-    experienceYears: 11,
-    image: "https://images.unsplash.com/photo-1594824813566-78a9c00b031b?q=80&w=800&auto=format&fit=crop",
-    bio: "Directs 24x7 multi-disciplinary intensive care units, managing severe sepsis, organ support, and critical emergency interventions.",
-    opdHours: "24x7 Emergency / ICU On-Call",
-    availableDays: "All Days",
+    "id": "doc-5",
+    "name": "Dr. Rachna Mishra",
+    "role": "Gynecologist & Infertility Specialist",
+    "department": "Obstetrics, Gynecology & Infertility",
+    "qualifications": [
+      "MBBS",
+      "MS",
+      "MBA"
+    ],
+    "experienceYears": 35,
+    "image": "/images/dr-rachna-mishra.png",
+    "bio": "Dr. Rachna Mishra specializes in women's reproductive healthcare, obstetrics, gynecology, and infertility-related care.",
+    "opdHours": "02:00 PM - 06:00 PM",
+    "availableDays": "Mon - Sun",
+    "isDirector": false
   },
+  {
+    "id": "doc-6",
+    "name": "Dr. Nishant Kumar",
+    "role": "Medicine Specialist",
+    "department": "General Medicine",
+    "qualifications": [
+      "MBBS"
+    ],
+    "experienceYears": 2,
+    "image": "/images/dr-nishant-kumar.png",
+    "bio": "Dr. Nishant Kumar provides general medical consultation, diagnosis, and treatment for patients.",
+    "opdHours": "09:00 AM - 09:00 PM",
+    "availableDays": "Mon - Sun",
+    "isDirector": false
+  }
 ];
 
 const initialBlogs: BlogPost[] = [
@@ -358,7 +397,7 @@ export function HospitalProvider({ children }: { children: React.ReactNode }) {
       try {
         const savedAdmin = localStorage.getItem("nova_admin_auth");
         if (savedAdmin === "true") setIsAdminLoggedIn(true);
-      } catch (e) {}
+      } catch (e) { }
     }
 
     loadData();

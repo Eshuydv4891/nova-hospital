@@ -5,61 +5,100 @@
       "name": "Dr. Vijay Yadav",
       "role": "Director & Chief Pediatrician",
       "department": "Pediatrics & Neonatology",
-      "qualifications": ["MBBS", "MD (Paediatrics)", "PGPN (Boston University)", "MECMS", "MIAP"],
-      "experienceYears": 15,
+      "qualifications": [
+        "MBBS",
+        "MD (Paediatrics)",
+        "PGPN (Boston University)",
+        "MECMS",
+        "MIAP"
+      ],
+      "experienceYears": 12,
       "image": "/images/dr-vijay-yadav.png",
-      "bio": "Dr. Vijay Yadav is a highly experienced Pediatrician committed to providing world-class healthcare for newborns, infants, children, and families with compassionate treatment and advanced medical care.",
-      "opdHours": "10:00 AM - 02:00 PM & 05:00 PM - 08:00 PM",
+      "bio": "Dr. Vijay Yadav is a highly experienced Pediatrician committed to providing quality healthcare for newborns, infants, children, and families.",
+      "opdHours": "12:00 PM - 06:00 PM",
       "availableDays": "Mon - Sat",
       "isDirector": true
     },
     {
       "id": "doc-2",
-      "name": "Dr. Rachna Mishra",
-      "role": "Senior Consultant Gynecologist & Obstetrician",
-      "department": "Obstetrics & Gynecology",
-      "qualifications": ["MBBS", "MS (Obs & Gynae)", "FICOG", "FMAS"],
-      "experienceYears": 12,
-      "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=800&auto=format&fit=crop",
-      "bio": "Specialist in high-risk pregnancies, maternal-fetal medicine, advanced laparoscopic surgeries, and comprehensive women healthcare.",
-      "opdHours": "11:00 AM - 03:00 PM",
-      "availableDays": "Mon - Sat"
+      "name": "Dr. Aziz Khan",
+      "role": "Senior Pediatrician",
+      "department": "Pediatrics & Neonatology",
+      "qualifications": [
+        "MBBS",
+        "DCH",
+        "DNB"
+      ],
+      "experienceYears": 10,
+      "image": "/images/dr-aziz-khan.png",
+      "bio": "Dr. Ajij Khan specializes in newborn and child healthcare, providing medical care and treatment for infants and children.",
+      "opdHours": "09:00 AM - 12:00 PM",
+      "availableDays": "Not Specified",
+      "isDirector": false
     },
     {
       "id": "doc-3",
-      "name": "Dr. Mahipal Yadav",
-      "role": "Chief Orthopedic & Trauma Surgeon",
-      "department": "Orthopedics & Trauma",
-      "qualifications": ["MBBS", "MS (Ortho)", "Fellowship in Joint Replacement"],
-      "experienceYears": 16,
-      "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=800&auto=format&fit=crop",
-      "bio": "Expert in complex trauma management, pediatric orthopedics, joint reconstruction, and minimally invasive bone care.",
-      "opdHours": "09:30 AM - 01:30 PM",
-      "availableDays": "Mon - Sat"
+      "name": "Dr. Farhat Khan",
+      "role": "General & Laparoscopic Surgeon",
+      "department": "General Surgery",
+      "qualifications": [
+        "MBBS",
+        "MS"
+      ],
+      "experienceYears": 25,
+      "image": "/images/dr-farhat-khan.png",
+      "bio": "Dr. Faiz Khan is an experienced General and Laparoscopic Surgeon with expertise in surgical treatments and patient care.",
+      "opdHours": "11:00 AM - 04:00 PM",
+      "availableDays": "Not Specified",
+      "isDirector": false
     },
     {
       "id": "doc-4",
-      "name": "Dr. Prashant Yadav",
-      "role": "Laparoscopic & General Surgery Specialist",
-      "department": "General & Laparoscopic Surgery",
-      "qualifications": ["MBBS", "MS (Gen Surgery)", "FIAGES"],
-      "experienceYears": 14,
-      "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=800&auto=format&fit=crop",
-      "bio": "Pioneer in keyhole surgery, pediatric surgical interventions, abdominal trauma, and emergency surgical procedures.",
-      "opdHours": "12:00 PM - 04:00 PM",
-      "availableDays": "Mon - Sat"
+      "name": "Dr. Suhbi Khan",
+      "role": "Gynecologist & Obstetrician",
+      "department": "Obstetrics & Gynecology",
+      "qualifications": [
+        "MBBS",
+        "Diploma in G.O."
+      ],
+      "experienceYears": 20,
+      "image": "/images/dr-suhbi-khan.png",
+      "bio": "Dr. Suhbi Khan specializes in women's healthcare, pregnancy care, and obstetrics and gynecology services.",
+      "opdHours": "02:00 PM - 06:00 PM",
+      "availableDays": "Not Specified",
+      "isDirector": false
     },
     {
       "id": "doc-5",
-      "name": "Dr. Shubham Yadav",
-      "role": "Critical Care Specialist & Intensivist",
-      "department": "ICU & Critical Care",
-      "qualifications": ["BAMS", "MD (General Physican)", "EDIC"],
-      "experienceYears": 11,
-      "image": "https://images.unsplash.com/photo-1594824813566-78a9c00b031b?q=80&w=800&auto=format&fit=crop",
-      "bio": "Directs 24x7 multi-disciplinary intensive care units, managing severe sepsis, organ support, and critical emergency interventions.",
-      "opdHours": "24x7 Emergency / ICU On-Call",
-      "availableDays": "All Days"
+      "name": "Dr. Rachna Mishra",
+      "role": "Gynecologist & Infertility Specialist",
+      "department": "Obstetrics, Gynecology & Infertility",
+      "qualifications": [
+        "MBBS",
+        "MS",
+        "MBA"
+      ],
+      "experienceYears": 35,
+      "image": "/images/dr-rachna-mishra.png",
+      "bio": "Dr. Rachna Mishra specializes in women's reproductive healthcare, obstetrics, gynecology, and infertility-related care.",
+      "opdHours": "02:00 PM - 06:00 PM",
+      "availableDays": "Not Specified",
+      "isDirector": false
+    },
+    {
+      "id": "doc-6",
+      "name": "Dr. Nishant Kumar",
+      "role": "Medicine Specialist",
+      "department": "General Medicine",
+      "qualifications": [
+        "MBBS"
+      ],
+      "experienceYears": 2,
+      "image": "/images/dr-nishant-kumar.png",
+      "bio": "Dr. Nishant Kumar provides general medical consultation, diagnosis, and treatment for patients.",
+      "opdHours": "09:00 AM - 09:00 PM",
+      "availableDays": "Not Specified",
+      "isDirector": false
     }
   ],
   "blogs": [
@@ -74,7 +113,12 @@
       "excerpt": "Welcoming a baby brings endless joy and questions. Learn crucial guidance from Dr. Vijay Yadav on newborn care, thermal regulation, feeding, and hygiene.",
       "content": "Bringing home a newborn child is one of life's most precious milestones, but it can also be intimidating. Temperature control is critical: infants under one month are sensitive to heat loss. Always keep your baby comfortably wrapped in soft cotton layers. Exclusive breastfeeding for the first six months provides essential antibodies for immunity against infections. Ensure cord care remains clean and dry. Watch for red flags like sluggish feeding, persistent fever above 100.4°F, or yellowing skin (jaundice) and consult Nova Medicare Hospital's 24x7 emergency pediatric hotline immediately.",
       "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=1000&auto=format&fit=crop",
-      "tags": ["Newborn Care", "Pediatrician", "Parenting Tips", "Baby Health"]
+      "tags": [
+        "Newborn Care",
+        "Pediatrician",
+        "Parenting Tips",
+        "Baby Health"
+      ]
     },
     {
       "id": "blog-2",
@@ -87,7 +131,12 @@
       "excerpt": "Immunization is the safest way to protect your child against preventable diseases. Here is Nova Medicare Hospital's complete recommended vaccination timeline.",
       "content": "Vaccines stimulate your baby's immune system without causing disease, building vital defenses against polio, tuberculosis, hepatitis B, rotavirus, measles, and pneumococcal infections. At birth, newborns receive BCG, OPV dose 0, and Hep-B1. At 6, 10, and 14 weeks, essential combination vaccines provide multi-spectrum protection. Don't skip annual flu shots or booster doses at 18 months and 5 years. Nova Medicare Hospital operates a dedicated painless vaccination clinic in Agra with strict cold-chain preservation.",
       "image": "https://images.unsplash.com/photo-1632053009384-9dbb5b9e3b97?q=80&w=1000&auto=format&fit=crop",
-      "tags": ["Vaccination", "Immunization", "Child Health", "Pediatrics"]
+      "tags": [
+        "Vaccination",
+        "Immunization",
+        "Child Health",
+        "Pediatrics"
+      ]
     },
     {
       "id": "blog-3",
@@ -100,7 +149,12 @@
       "excerpt": "Demystifying Neonatal (NICU) and Pediatric Intensive Care Units (PICU). How advanced monitoring saves little lives.",
       "content": "When a baby is born prematurely, with low birth weight, or experiences acute respiratory distress, the Neonatal Intensive Care Unit (NICU) provides specialized incubator environment, mechanical ventilation, radiant warmers, and 24x7 monitoring by trained neonatologists. PICU supports toddlers and older children facing severe asthma attacks, high-grade seizures, trauma, or post-surgical recovery. Nova Medicare Hospital features state-of-the-art Level-III NICU & PICU facilities in Agra staffed 24 hours a day.",
       "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=1000&auto=format&fit=crop",
-      "tags": ["NICU", "PICU", "Critical Care", "Emergency"]
+      "tags": [
+        "NICU",
+        "PICU",
+        "Critical Care",
+        "Emergency"
+      ]
     },
     {
       "id": "blog-4",
@@ -113,7 +167,11 @@
       "excerpt": "Transitioning from milk to solid weaning foods. Healthy recipes, micronutrient requirements, and weight milestone checks.",
       "content": "At 6 months, complementary feeding should begin alongside breast milk. Introduce single-ingredient mashes like mashed banana, boiled ragi porridge, or apple puree. Avoid adding salt or sugar before age one. Ensure balanced iron, zinc, and vitamin D intake for healthy cognitive and skeletal development.",
       "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=1000&auto=format&fit=crop",
-      "tags": ["Nutrition", "Weaning", "Child Development"]
+      "tags": [
+        "Nutrition",
+        "Weaning",
+        "Child Development"
+      ]
     }
   ],
   "gallery": [
