@@ -184,7 +184,7 @@ export default function Footer() {
 
         {/* Bottom Bar: Copyright & Map quick link */}
         <div className="border-t border-slate-800 pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
-          <p>© {new Date().getFullYear()} Nova Medicare Hospital, Agra. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Developed by: Er. Eshu Yadav- 9557716431</p>
           <div className="flex items-center gap-4">
             <Link href="/contact" className="hover:text-secondary">
               Google Maps Location
