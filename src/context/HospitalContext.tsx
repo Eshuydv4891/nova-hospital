@@ -126,7 +126,7 @@ const initialDoctors: Doctor[] = [
     "image": "/images/dr-aziz-khan.png",
     "bio": "Dr. Aziz Khan specializes in newborn and child healthcare, providing medical care and treatment for infants and children.",
     "opdHours": "09:00 AM - 12:00 PM",
-    "availableDays": "Mon - Sun",
+    "availableDays": "All Days",
     "isDirector": false
   },
   {
@@ -142,7 +142,7 @@ const initialDoctors: Doctor[] = [
     "image": "/images/dr-farhat-khan.png",
     "bio": "Dr. Farhat Khan is an experienced General and Laparoscopic Surgeon with expertise in surgical treatments and patient care.",
     "opdHours": "11:00 AM - 04:00 PM",
-    "availableDays": "Mon - Sun",
+    "availableDays": "All Days",
     "isDirector": false
   },
   {
@@ -158,7 +158,7 @@ const initialDoctors: Doctor[] = [
     "image": "/images/dr-suhbi-khan.png",
     "bio": "Dr. Suhbi Khan specializes in women's healthcare, pregnancy care, and obstetrics and gynecology services.",
     "opdHours": "02:00 PM - 06:00 PM",
-    "availableDays": "Mon - Sun",
+    "availableDays": "All Days",
     "isDirector": false
   },
   {
@@ -175,7 +175,7 @@ const initialDoctors: Doctor[] = [
     "image": "/images/dr-rachna-mishra.png",
     "bio": "Dr. Rachna Mishra specializes in women's reproductive healthcare, obstetrics, gynecology, and infertility-related care.",
     "opdHours": "02:00 PM - 06:00 PM",
-    "availableDays": "Mon - Sun",
+    "availableDays": "All Days",
     "isDirector": false
   },
   {
@@ -190,7 +190,7 @@ const initialDoctors: Doctor[] = [
     "image": "/images/dr-nishant-kumar.png",
     "bio": "Dr. Nishant Kumar provides general medical consultation, diagnosis, and treatment for patients.",
     "opdHours": "09:00 AM - 09:00 PM",
-    "availableDays": "Mon - Sun",
+    "availableDays": "All Days",
     "isDirector": false
   }
 ];
